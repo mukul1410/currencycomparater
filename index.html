@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Currency Rate </title>
+<link rel="stylesheet" href="index.css">
+<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="http://svnitstudentdbms.netii.net/svnit/student/css/myAutoComplete.css" >
+<link rel="stylesheet" type="text/css" href="http://svnitstudentdbms.netii.net/css/colorbox.css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://svnitstudentdbms.netii.net/jQuery/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+
+<div id="content">
+<header>
+<h1> Currency Rates</h1>
+<small style = "position:relative;top:-10px;">Multiple currencies, cross comparision </small>	
+</header>	
+
+<div id="base" class="inputsibling">
+<div id="baseInput">
+<label for="baseCurrency" class="label"></label>
+<input type="text" id="baseCurrency" class="baseCurrency" name="baseCurrency" aria-required="true" aria-label="Enter base currency" placeholder = "Enter base currency"  spellcheck="false"/> 
+</div>
+<div id="baseResult">
+	
+</div>
+</div>
+
+<div id="comparision" class="inputsibling">
+<div id="comparisionInput">
+<label for="comparisionCurrency" class="label"></label>
+<input type="text" id="comparisionCurrency" class="comparisionCurrency" name="comparisionCurrency" aria-required="true" aria-label="Add multiple currencies" placeholder = "Add multiple currencies"  spellcheck="false"/> 
+</div>
+<div id="comparisionResult">
+	
+</div>
+<div id="chart" style="display:none">
+<div id="chartImgContent">
+<img src="" id="chartImg" >	
+<p></p>
+</div>
+</div>
+</div>
+</div>	
+</body>
+</html>

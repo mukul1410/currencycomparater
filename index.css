@@ -1,0 +1,172 @@
+body *{font-family: 'Alegreya Sans', sans-serif;}
+
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'Alegreya Sans', sans-serif;
+	color:#8F3931;
+	font-weight:normal;
+	font-size:1.3rem;
+	text-transform:uppercase;
+}
+b,#editable2 b,strong
+{
+	color:#8F3931;
+	font-weight:normal;
+}
+p,ol,li,ul,label,span,td,tr
+{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size:1.05rem;
+	line-height:150%;
+}
+
+tr{width:100%;}
+table{width:100%;}
+
+ol li{list-style-type:decimal;}
+
+input:focus,select:focus{outline:none;}
+body{//overflow-x:hidden;}
+li{padding-bottom:20px;}
+
+a{color:#8F3931;}
+
+button,input[type="submit"]
+{
+		background-color:#8F3931;
+		border:1px #8F3931 solid;
+		font-family: 'Alegreya Sans', sans-serif;
+		font-size:17px;
+		cursor:pointer;
+		color:white;
+		width:90px;
+		height:40px;
+		border-radius:5px 5px 5px 5px;
+		padding:8px;
+}
+
+input[type="submit"]{width:150px;}
+
+button:hover,input[type="submit"]:hover
+{
+	opacity:0.6;
+}
+
+header {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 80px;
+	background-color: #8F3931;
+}
+header h1, header small {
+	color:white;
+	padding: 5px;
+}
+header small {
+	font-size: 15px;
+}
+#base {
+
+	position: absolute;
+	left:5%;
+	top:150px;
+	width:30%;
+	margin: auto;
+}
+
+input[type="text"] {
+	width:400px;
+	height: 50px;
+	border-radius: 5px 5px 5px 5px;
+	font-size: 25px;
+	color: #8F3931;
+	text-transform: capitalize;
+	border:none;
+	border-bottom: 1px solid #EDEDED;
+}
+
+input[type="number"]
+{
+	font-size: 25px;
+	color: #8F3931;
+	text-transform: capitalize;
+	border:none;
+	border-right: 1px solid #EDEDED;
+	text-align: right;
+	width: 100%
+}
+#base #baseCurCode h1,.sibling h1 {
+	text-align: left;
+	margin-top: 6px;
+	padding-left: 11px;
+}
+
+#baseResult,#comparisionResult {
+
+	padding: 20px;
+}
+
+.sibling {
+	float:left;
+	width:50%;
+}
+.sibling img {
+	vertical-align: middle;
+
+}
+
+
+.sibling a {text-decoration: none;}
+.sibling a:hover{text-decoration: underline;}
+.sibling img {opacity: 0.3;}
+.sibling img:hover {cursor:pointer;opacity: 1}
+.sibling .link {
+	height:25px;
+	padding-top:5px;
+}
+.comparisionCurVal .sibling {
+	width:23%;
+	height:40px;
+}
+
+.inputsibling {
+	float: left;
+}
+#comparision {
+
+	position: absolute;
+	right:5%;
+	top:150px;
+	width:40%;
+	height:70%;
+	overflow-y :auto; 
+	margin: auto;
+}
+.comparisionCurVal {
+
+	border-bottom: 1px solid #EDEDED;
+}
+input:-moz-submit-invalid{
+    box-shadow:none;
+    -moz-box-shadow: none;
+}
+input:invalid {
+    box-shadow:none;
+    -moz-box-shadow: none;
+}
+#cboxOverlay{ visibility: visible; opacity: 0.5 !important;}
+#chartImg {
+	width: 323px;
+	margin: auto;
+	position: absolute;
+	top: 19%;
+	left: 15%;
+}
+#chartImgContent p {
+	text-align: center;
+	color: #8F3931;
+	margin-top: 0px;
+}
